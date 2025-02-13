@@ -162,11 +162,19 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     background-color: #463F3A;
     color: #F4F3EE;
     padding: 20px;
     background-color: var(--color-2);
+}
+
+#projects h3 {
+    font-size: 3rem;
+}
+
+#projects ul {
+    list-style-type: none;
 }
 /* Contact page: contacts*/
 #contacts {
