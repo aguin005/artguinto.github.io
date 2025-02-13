@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-
+/* Variables for the color pallete */
 :root {
     --font-family: Montserrat;
 }
@@ -10,7 +10,7 @@ body {
     margin: 0;
     scroll-behavior: smooth;
 }
-
+/* Navigation bar at the top */
 .navbar {
     display: flex;
     position: fixed;
@@ -27,19 +27,31 @@ body {
     font-family: var(--font-family);
 }
 
-.navbar a {
-    text-decoration: none;
+#navlinks ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.navbar a:hover {
+#navlinks li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#navlinks a {
+    text-decoration: none;
+    color: black;
+}
+
+#navlinks a:hover {
     cursor: pointer;
     color: #BCB8B1;
 }
 
-.navbar a:visited {
+#navlinks a:visited {
     color: black;
 }
-
+/* Home page : name */
 #home {
     display: flex;
     width: 100%;
@@ -68,7 +80,7 @@ body {
         font-size: 2rem;
     }
 }
-
+/* About page: talking about myself */
 #about {
     width: 100%;
     height: 100vh;
@@ -94,6 +106,7 @@ body {
 #about p {
     font-family: Roboto, sans-serif;
     font-size: 2rem;
+    line-height: 1.5;
 }
 
 #randomButton {
@@ -133,26 +146,13 @@ body {
     margin: 0 auto;
 }
 
-h3 {
-    font-weight: 250;
-    font-family: Arial;
+/* Project page: projects*/
+#projects {
+    width: 100%;
+    height: 100vh;
 }
-p {
-    font-family: Arial;
-    line-height: 1.5;
-}
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-li {
-    display: inline-block;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-a {
-    color: black;
-}
-a:visited {
-    color:grey;
+/* Contact page: contacts*/
+#contacts {
+    width: 100%;
+    height: 100vh;
 }
