@@ -128,6 +128,7 @@ a {
 
 #randomButton:hover {
     background-color: #BCB8B1;
+    border: #BCB8B1 1px solid;
     color: white;
 }
 
