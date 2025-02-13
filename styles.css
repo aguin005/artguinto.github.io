@@ -4,6 +4,11 @@
 /* Variables for the color pallete */
 :root {
     --font-family: Montserrat;
+    --color-1: #463F3A;
+    --color-2: #8A817C;
+    --color-3: #BCB8B1;
+    --color-4: #F4F3EE;
+    --color-5: #E0AFA0;
 }
 
 body {
