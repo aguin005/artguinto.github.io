@@ -10,6 +10,20 @@ body {
     margin: 0;
     scroll-behavior: smooth;
 }
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #BCB8B1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 /* Navigation bar at the top */
 .navbar {
     display: flex;
@@ -38,19 +52,6 @@ body {
     margin-left: 20px;
 }
 
-#navlinks a {
-    text-decoration: none;
-    color: black;
-}
-
-#navlinks a:hover {
-    cursor: pointer;
-    color: #BCB8B1;
-}
-
-#navlinks a:visited {
-    color: black;
-}
 /* Home page : name */
 #home {
     display: flex;
