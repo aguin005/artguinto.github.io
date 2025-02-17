@@ -41,9 +41,13 @@ a {
     height: 50px;
     width: 100%;
     min-width: 300px;
+    background: grey;
     background: rgba(255, 255, 255, .8);
     backdrop-filter: blur(10px);
     font-family: var(--font-family);
+}
+#navlinks {
+    padding: 0;
 }
 
 #navlinks ul {
@@ -53,8 +57,8 @@ a {
 
 #navlinks li {
     display: inline-block;
-    margin-right: 20px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* Home page : name */
