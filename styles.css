@@ -207,30 +207,41 @@ a {
     justify-content: center;
     align-items: center;
     gap: 16px;
+    max-width: 1400px;
     background-color: #463F3A;
     color: #F4F3EE;
-    padding: 20px;
-    margin: 0;
+    padding: 20px 10px;
+    margin: 0 auto;
     background-color: var(--color-2);
     font-family: var(--font-family);
 }
 
 #projects h3 {
-    font-size: 3rem;
-}
-
-#projects ul {
-    list-style-type: none;
-    padding: 0;
+    font-size: 4rem;
 }
 
 #projects img {
-    border-radius: 45px;
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 #projects p {
     text-align: center;
     font-size: 2rem;
+}
+
+@media (max-width: 500px) {
+
+    #projects h3 {
+        font-size: 3rem;
+    }
+
+    #projects p {
+        font-size: 1.5rem;
+    }
 }
 /* Contact page: contacts*/
 #contacts {
