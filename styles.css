@@ -117,6 +117,7 @@ a {
 
 #about #about-title {
     font-size: 4rem;
+    color: #8A817C;
     font-family: var(--font-family);
 }
 
@@ -198,6 +199,14 @@ a {
 
 #projects > h3 {
     text-align: center;
+    color: #463F3A;
+    font-size: 4rem;
+}
+
+#projects p {
+    text-align: center;
+    font-size: 2rem;
+    color: #463F3A;
 }
 
 .projectslist {
@@ -206,7 +215,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 10px;
     max-width: 1400px;
     background-color: #463F3A;
     color: #F4F3EE;
@@ -216,21 +225,11 @@ a {
     font-family: var(--font-family);
 }
 
-#projects h3 {
-    font-size: 4rem;
-}
-
 #projects img {
     width: 100%;
     max-width: 350px;
     height: 300px;
     object-fit: cover;
-    border-radius: 15px;
-}
-
-#projects p {
-    text-align: center;
-    font-size: 2rem;
 }
 
 @media (max-width: 500px) {
