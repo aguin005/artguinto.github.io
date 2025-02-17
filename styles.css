@@ -61,6 +61,12 @@ a {
     margin-right: 20px;
 }
 
+@media (max-width: 600px) {
+    .navbar {
+        height: 40px;
+        font-size: .75rem;
+    }
+}
 /* Home page : name */
 #home {
     display: flex;
@@ -157,6 +163,22 @@ a {
 
 .randomPage #randomButton {
     margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+
+    #about #about-title {
+        font-size: 3rem;
+    }
+
+    #about p {
+        font-size: 1.5rem;
+    }
+
+    #about section {
+        width: 100%;
+        min-width: 300px;
+    }
 }
 
 /* Project page: projects*/
