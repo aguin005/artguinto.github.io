@@ -203,6 +203,11 @@ a {
     font-size: 4rem;
 }
 
+#projects > h4 {
+    text-align: center;
+    font-size: 2rem;
+}
+
 #projects p {
     text-align: center;
     font-size: 1rem;
@@ -236,6 +241,10 @@ a {
 
     #projects h3 {
         font-size: 3rem;
+    }
+
+    #projects h4 {
+        font-size: 1rem;
     }
 
 }
