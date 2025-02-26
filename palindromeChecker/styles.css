@@ -30,6 +30,8 @@ body {
     align-self: center;
 }
 
+
+
 #text-container {
     background: var(--color3);
     align-self: center;
@@ -41,8 +43,10 @@ body {
 
 }
 
+
+
 #text-container p {
-    color: var(--color4);
+    color: var(--color5);
     font-size: 1.5rem;
 }
 
@@ -67,6 +71,28 @@ body {
     border: none;
     background-color: var(--color5);
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+    #title h1 {
+        font-size: 2rem;
+    }
+
+    #text-container {
+        width: 400px;
+        min-height: 130px;
+    }
+
+    #text-container p {
+        font-size: 1.25rem;
+    }
+    
+    #text-container input {
+        width: 45%;
+        height: 20px;
+    }
+
 }
 
 .hidden {
