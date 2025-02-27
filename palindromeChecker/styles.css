@@ -58,7 +58,7 @@ body {
     text-align: center;
     font-size: 1.2rem;
     border-bottom: 2px solid var(--color5);
-    padding: 10px;
+    margin: 10px;
 }
 
 #text-container button {
@@ -80,7 +80,7 @@ body {
     }
 
     #text-container {
-        width: 400px;
+        width: 350px;
         min-height: 130px;
     }
 
