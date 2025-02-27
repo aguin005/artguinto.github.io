@@ -85,13 +85,13 @@ a {
     align-self: center;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     #home > #home-title {
         font-size: 3rem;
     }
-}
+} */
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     #home > #home-title {
         font-size: 1.5rem;
     }
@@ -166,7 +166,7 @@ a {
     margin: 0 auto;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 
     #about #about-title {
         font-size: 3rem;
@@ -184,9 +184,9 @@ a {
     .randomPage h1{
         font-size: 3rem;
     }
-}
+} */
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 
     #about #about-title {
         font-size: 1.5rem;
@@ -309,9 +309,10 @@ a {
     color:#ffffff;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     
     #contacts h4 {
         font-size: 1.5rem;
     }
+    
 }
