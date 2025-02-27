@@ -37,7 +37,7 @@ body {
     align-self: center;
     width: 500px;
     border-radius: 25px;
-    min-height: 140px;
+    min-height: 200px;
     height: auto;
     box-shadow: 0 6px 6px var(--color2);
 
