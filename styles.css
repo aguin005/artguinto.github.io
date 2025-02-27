@@ -91,7 +91,7 @@ a {
     }
 } */
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     #home > #home-title {
         font-size: 1.5rem;
     }
@@ -186,7 +186,7 @@ a {
     }
 } */
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     #about #about-title {
         font-size: 1.5rem;
@@ -258,7 +258,7 @@ a {
     object-fit: cover;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     #projects h3 {
         font-size: 1.5rem;
@@ -309,10 +309,10 @@ a {
     color:#ffffff;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     
     #contacts h4 {
         font-size: 1.5rem;
     }
-    
+
 }
