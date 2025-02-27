@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Gym Survey Form</title>
+    <link rel="stylesheet" href="../surveyForm/styles.css"/>
+  </head>
+    <body>
+      <h1 id="title">Gym Survey Form</h1>
+      <p id="description">Tell us your gym habits!</p>
+      <form id="survey-form">
+      <fieldset>
+        <legend>Information</legend>
+        <label id="name-label">Enter your name: <input id="name" name="name" type="text" placeholder="Your name" required/></label>
+        <label id="email-label">Enter your email: <input id="email" name="name" type="email" placeholder="Your email" required/></label>
+        <label id="number-label">Enter your age: <input id="number" name="number-label" type="number" required min="15" max="120" placeholder="Age"/></label>
+      </fieldset>
+      <fieldset>
+        <legend>Workout Split</legend>
+        <label for="upper-lower-split"><input type="radio" value="upper-lower-split" name="split" checked/>Upper/Lower Split</label>
+        <label for="bro-split"><input type="radio" value="bro-split" name="split"/>Bro Split</label>
+        <label for="5-day-split"><input type="radio" value="5-day-split" name="split"/>5-Day Split</label>
+        <label for="body-part-split"><input type="radio" value="body-part-split" name="split"/>Body Part Split</label>
+      </fieldset>
+      <fieldset>
+        <legend>Habit</legend>
+        <label for="diet">Do you keep track of your calories?
+          <select id="dropdown" name="diet">
+            <option value="">(select one)</option>
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+          </select>
+        </label>
+        <label for="diet">Why do you work out?
+          <textarea id="diet" rows="3" cols="30" placeholder="I want to lose weight..."></textarea>
+        </label>
+        <label>
+          <input type="checkbox" value="comfort" checked/> Train until comfort?
+        </label>
+        <label>
+          <input type="checkbox" value="failure"/> Train until failure?
+        </label>
+      </fieldset>
+      <input type="submit" id="submit" value="Submit"/>
+      </form>
+      </body>
+  </html>

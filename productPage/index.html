@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../productPage/styles.css" />
+        <link href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    </head>
+    <body>
+        <header id="header" class="header">
+            <div class="logo">
+                <h1>Mod ur</h1>
+                <img id="header-img" src="https://cdn-icons-png.flaticon.com/512/37/37756.png" alt="product logo"/>
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#how-it-works">How to do it</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-doc">
+            <section class="main-section">
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                    <h2>Want more nostalgia and fun?</h2>
+                    <input name="email" id="email" type="email" placeholder="Enter your email here" required/>
+                    <input id="submit" type="submit" value="Submit" />
+                </form>
+            </section>
+            <section id="features">
+                <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+                <div class="desc">
+                    <h3>Endless Game Library</h3>
+                    <p>Modding a Wii opens access to a huge variety of classic games, including emulators for NES, SNES, Sega Genesis, and more, turning it into an all-in-one retro gaming console.</p>
+                </div>
+                <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+                <div class="desc">
+                    <h3>Homebrew Apps </h3> 
+                    <p>With a modded Wii, you can install custom applications, like media players and homebrew games, giving your console more functionality beyond just gaming.</p>
+                </div>
+                <div class="icon"><i class="fa fa-3x fa-battery-full" aria-hidden="true"></i></div>
+                <div class="desc">
+                    <h3>Customizable Experience</h3>
+                    <p>You can tweak the system’s settings, install themes, and personalize the UI, making it feel unique and tailored to your preferences.</p>
+                </div>
+            </section>
+            <section id="how-it-works">
+                <iframe 
+                    id="video" 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/zGkjuqh0YHI?si=rcTMTrZR7Vn7VveI" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </section>
+            <section id="pricing">
+                <div class="product" id="wii">
+                    <div class="level">Wii</div>
+                    <h2>$100+</h2>
+                    <ol>
+                        <li>Costs money</li>
+                        <li>Very limited</li>
+                    </ol>
+                    <input id="submit" type="submit" value="Get" />
+                </div>
+                <div class="product" id="modwii">
+                    <div class="level">Modded Wii</div>
+                    <h2>Free</h2>
+                    <ol>
+                        <li>Free</li>
+                        <li>Unlimited Possibilities</li>
+                    </ol>
+                    <input id="submit" type="submit" value="Get" />
+                </div>
+            </section>
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span>Copyright 2025, Modded Wiis</span>
+            </footer>
+        </main>
+    </body>
+</html>
