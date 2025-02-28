@@ -70,6 +70,12 @@ a:hover {
     justify-content: space-evenly;
 }
 
+@media (max-width: 650px) {
+    #nav-bar > ul {
+        width: 75vw;
+    }
+}
+
 #form {
     display: flex;
     flex-direction: column;
@@ -109,7 +115,7 @@ input[type="submit"]:hover {
 }
 
 #how-it-works {
-    margin-top: 50px;
+    margin: 100px 100px;
     display: flex;
     justify-content: center;
 }
@@ -121,6 +127,7 @@ input[type="submit"]:hover {
 
 .main-section {
     max-width: 1000px;
+    padding: 100px 100px;
     width: 100%;
     margin: 0 auto;
 }
@@ -131,9 +138,15 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 650px) {
+
     #features {
         margin-top: 50px;
     }
+
+    .logo {
+        display: none;
+    }
+
 }
 
 #features .icon {
@@ -161,13 +174,16 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 550px) {
+
     #features .desc {
         width: 100%;
         text-align: center;
         padding: 0;
         height: 150px;
     }
+
 }
+
 
 #pricing {
     margin-top: 50px;
@@ -177,6 +193,7 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (max-width:800px) {
+
     #pricing {
         flex-direction: column;
         align-items: center;
@@ -188,6 +205,7 @@ input[type="submit"]:hover {
         margin: 0 auto;
         margin-bottom: 10px;
     }
+
 }
 
 .product {
