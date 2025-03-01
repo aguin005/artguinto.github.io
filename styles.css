@@ -78,6 +78,7 @@ a {
     justify-content: center;
     text-align: center;
     background-color: white;
+    color: var(--color-5)
 }
 
 #home > #home-title {
@@ -114,8 +115,8 @@ a {
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    background-color: #463F3A;
-    color: #F4F3EE;
+    background-color: var(--color-4);
+    color: var(--color-2);
     padding: 20px;
 }
 
@@ -127,7 +128,7 @@ a {
 
 #about #about-title {
     font-size: 4rem;
-    color: #8A817C;
+    color: var(--color-3);
     font-family: var(--font-family);
 }
 
@@ -141,6 +142,7 @@ a {
     max-width: 125px;
     padding: 12px 24px;
     background-color: white;
+    color: var(--color-2);
     border: white 1px solid;
     border-radius: 50px;
     text-decoration: none;
@@ -242,16 +244,15 @@ a {
 #projects {
     width: 100%;
     height: auto;
-    background-color: #463F3A;
     color: #F4F3EE;
     padding: 10px;
-    background-color: var(--color-2);
+    background-color: var(--color-3);
     font-family: var(--font-family);
 }
 
 #projects h3, #projects h4, #projects p {
     text-align: center;
-    color: #463F3A;
+    color: var(--color-2);
 }
 
 #projects > h3 {
@@ -274,11 +275,10 @@ a {
     align-items: center;
     gap: 10px;
     max-width: 1400px;
-    background-color: #463F3A;
+    background-color: var(--color-3);
     color: #F4F3EE;
     padding: 20px 10px;
     margin: 0 auto;
-    background-color: var(--color-2);
     font-family: var(--font-family);
 }
 
@@ -287,6 +287,14 @@ a {
     max-width: 600px;
     height: 400px;
     object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 1px 5px 10px var(--color-1);
+    transition: all 0.5s ease;
+}
+
+#projects img:hover {
+    transform: scale(1.025);
+    box-shadow: 2px 8px 10px var(--color-1);
 }
 
 @media (max-width: 1070px) {
@@ -311,19 +319,20 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--color-3);
+    background-color: var(--color-1);
 }
 
 #contacts h4 {
     font-family: var(--font-family), sans-serif;
     font-size: 4rem;
     text-align: center;
-    color: var()
+    color: var(--color-2);
 }
 
 #contactLogo {
     font-size: 2rem;
     padding: 10px;
+    color: var(--color-2);
 }
 
 #contacts ul {
@@ -332,6 +341,7 @@ a {
     text-align: center;
     font-family: Roboto, sans-serif;
     font-weight: 400;
+    
 }
 
 #contacts li {
@@ -341,7 +351,7 @@ a {
 }
 
 #contacts a:hover {
-    color:#ffffff;
+    color: var(--color-3);
 }
 
 @media (max-width: 600px) {
