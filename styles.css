@@ -116,7 +116,7 @@ a {
     justify-content: center;
     text-align: left;
     background-color: var(--color-4);
-    color: var(--color-2);
+    color: var(--color-3);
     padding: 20px;
 }
 
@@ -128,7 +128,7 @@ a {
 
 #about #about-title {
     font-size: 4rem;
-    color: var(--color-3);
+    color: var(--color-2);
     font-family: var(--font-family);
 }
 
