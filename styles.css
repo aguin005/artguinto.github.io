@@ -176,7 +176,7 @@ a {
 }
 
 .randomPage #randomButton {
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 /* @media (max-width: 600px) {
