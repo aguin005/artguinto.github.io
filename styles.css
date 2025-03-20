@@ -236,7 +236,7 @@ a {
 #gymAbout-title {
     font-size: 5rem;
     padding-right: 20px;
-    color: var(--gym-color-2);
+    color: var(--gym-color-4);
     font-family: var(--font-family);
 }
 
@@ -259,6 +259,7 @@ a {
 
 .gymAbout p {
     font-family: Roboto, sans-serif;
+    color: var(--gym-color-2);
     font-size: 2rem;
     line-height: 1.5;
 }
@@ -266,9 +267,10 @@ a {
 #gymAbout-logo {
     text-align: left;
     font-size: 25rem;
+    margin-left: 50px;
 }
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1400px) {
     #gymAbout-logo {
         display: none;
     }
