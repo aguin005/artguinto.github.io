@@ -175,6 +175,7 @@ a {
 }
 
 .randomPage h1 {
+    font-size: 4rem;
     font-family: var(--font-family);
     color: var(--color-4);
     align-self: center;
