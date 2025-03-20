@@ -204,6 +204,75 @@ a {
     }
 } */
 
+.gymHome {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--gym-color-4);
+    color: var(--gym-color-1);
+}
+
+#gymHome-title {
+    font-family: var(--font-family), sans-serif;
+    font-size: 10rem;
+    align-self: center;
+}
+
+.gymAbout {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    background-color: var(--gym-color-3);
+    color: var(--gym-color-2);
+    padding: 20px;
+}
+
+#gymAbout-title {
+    font-size: 5rem;
+    padding-right: 20px;
+    color: var(--gym-color-2);
+    font-family: var(--font-family);
+}
+
+#gymAbout-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.gymAbout section {
+    width: 100%;
+    min-width: 500px;
+    max-width: 800px;
+    margin-left: auto;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.gymAbout p {
+    font-family: Roboto, sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+#gymAbout-logo {
+    text-align: left;
+    font-size: 25rem;
+}
+
+@media only screen and (max-width: 1350px) {
+    #gymAbout-logo {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1070px) {
 
     #about #about-title {
@@ -245,7 +314,6 @@ a {
     }
 
 }
-
 /* Project page: projects*/
 #projects {
     width: 100%;
@@ -318,6 +386,7 @@ a {
     }
 
 }
+
 /* Contact page: contacts*/
 #contacts {
     width: 100%;
