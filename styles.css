@@ -395,7 +395,7 @@ a {
     font-size: 1rem;
 }
 
-.projectslist {
+.projectsList {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
