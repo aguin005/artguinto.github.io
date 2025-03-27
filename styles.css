@@ -296,6 +296,8 @@ a {
 .gymPersonalRecord h3 {
     text-align: center;
     font-size: 5rem;
+    font-family: var(--gym-font-family);
+    color: var(--gym-color-4)
 }
 
 .gymPersonalRecord-content {
@@ -304,7 +306,8 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 100px;
+    font-family: "Kubos";
 }
 
 #workout {
@@ -313,6 +316,10 @@ a {
 
 #workout-title {
     margin: 0;
+}
+
+#workout p {
+    color: white;
 }
 @media only screen and (max-width: 1400px) {
     #gymAbout-logo {
