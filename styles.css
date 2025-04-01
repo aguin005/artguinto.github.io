@@ -216,6 +216,8 @@ a {
     }
 } */
 
+/* Gym page: title */
+
 .gymHome {
     display: flex;
     width: 100%;
@@ -230,6 +232,22 @@ a {
     font-family: var(--gym-font-family);
     font-size: 10rem;
     align-self: center;
+}
+
+@media (max-width: 1070px) {
+
+    #gymHome-title {
+        font-size: 3rem;
+    }
+    
+}
+
+@media (max-width: 745px) {
+
+    #gymHome-title {
+        font-size: 2rem;
+    }
+
 }
 
 .gymAbout {
@@ -297,7 +315,7 @@ a {
     text-align: center;
     font-size: 5rem;
     font-family: var(--gym-font-family);
-    color: var(--gym-color-4);
+    color: var(--gym-color-3);
     text-decoration: underline;
 }
 
@@ -320,8 +338,73 @@ a {
 }
 
 #workout p {
-    color: white;
+    color: var(--gym-color-5);
 }
+
+.gymRoutine {
+    width: 100%;
+    height: auto;
+    background-color: var(--gym-color-1);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#routine-title {
+    font-size: 5rem;
+    font-family: var(--gym-font-family);
+    color: var(--gym-color-4);
+}
+
+.gymRoutine-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 15px;
+    max-width: 1400px;
+    gap: 10px;
+    width: 100%;
+}
+
+#dayRoutine {
+    width: 350px;
+    height: 300px;
+}
+
+#dayRoutine p {
+    font-family: "Kubos", sans-serif;
+
+}
+
+#day {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-family: "Kubos", sans-serif;
+}
+
+#bodyGroup {
+    font-family: "Kubos", sans-serif;
+    color: var(--gym-color-5);
+}
+
+#dayRoutine ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+#dayRoutine p {
+    color: var(--gym-color-3);
+    font-size: .75rem;
+}
+
+
+
 @media only screen and (max-width: 1400px) {
     #gymAbout-logo {
         display: none;
