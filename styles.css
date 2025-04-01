@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: "Guardia";
-    src: url(artguinto.github.io/fonts/Guardia-Regular.ttf);
+    src: url(../../fonts/Guardia-Regular.ttf);
 }
 
 @font-face {
     font-family: "Kubos";
-    src: url(artguinto.github.io/fonts/kubos-regular.otf);
+    src: url(../../fonts/kubos-regular.otf);
 }
 /* Variables for the color pallete */
 :root {
