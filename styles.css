@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: "Kubos";
-    src: url("/fonts/kubos-regular.otf");
+    src: url("./fonts/kubos-regular.otf");
 }
 /* Variables for the color pallete */
 :root {
