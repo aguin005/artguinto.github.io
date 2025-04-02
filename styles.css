@@ -326,6 +326,10 @@ a {
         font-size: 3rem;
     }
 
+    .gymAbout section {
+        min-width: 300px;
+    }
+
     .gymAbout p {
         font-size: 1rem;
     }
