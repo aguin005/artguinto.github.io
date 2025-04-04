@@ -338,10 +338,11 @@ a {
 
 .gymPersonalRecord {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: var(--gym-color-2);
     margin: 0;
     padding: 10px;
+    padding-bottom: 100px;
 }
 
 .gymPersonalRecord h3 {
@@ -378,10 +379,6 @@ a {
 
     .gymPersonalRecord {
         height: auto;
-    }
-
-    #workout p {
-        margin-bottom: 50px;
     }
 
 }
