@@ -155,6 +155,15 @@ a {
     line-height: 1.5;
 }
 
+#about-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#about-buttons #randomButton {
+    margin: 10px;
+}
+
 #randomButton {
     max-width: 125px;
     padding: 12px 24px;
