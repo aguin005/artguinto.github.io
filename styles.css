@@ -585,7 +585,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 50px;
     max-width: 1400px;
     background-color: var(--color-3);
     color: var(--color-4);
