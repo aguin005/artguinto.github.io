@@ -11,7 +11,7 @@
     font-family: "Kubos";
     src: url("./fonts/kubos-regular.otf");
 }
-/* Variables for the color pallete */
+/* Variables for the color palette */
 :root {
     --font-family: "Montserrat", sans-serif;
     --gym-font-family: "Guardia", sans-serif;
