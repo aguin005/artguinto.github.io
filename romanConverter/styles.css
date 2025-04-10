@@ -49,3 +49,19 @@
 .hidden {
     display: none;
 }
+
+@media (max-width: 1070px) {
+
+    #input-container {
+        width: 500px;
+    }
+
+}
+
+@media (max-width: 745px) {
+
+    #input-container {
+        width: 400px;
+    }
+
+}
