@@ -556,6 +556,7 @@ a {
     height: auto;
     color: var(--color-4);
     padding: 10px;
+    padding-bottom: 40px;
     background-color: var(--color-3);
     font-family: var(--font-family);
 }
