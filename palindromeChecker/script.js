@@ -43,3 +43,8 @@ checkButton.addEventListener("click", () => {
     palindromeChecker(userInput.value);
     userInput.value = "";
 });
+
+userInput.addEventListener("keydown", e => {
+    palindromeChecker(userInput.value);
+    userInput.value = "";
+})
