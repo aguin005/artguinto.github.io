@@ -50,5 +50,7 @@ convertBtn.addEventListener("click", () => {
 })
 
 number.addEventListener("keydown", e => {
-    checkInput(number.value);
+    if (e.key === "Enter") {
+        checkInput(number.value);
+    }
 })

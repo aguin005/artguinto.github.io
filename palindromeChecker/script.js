@@ -45,6 +45,8 @@ checkButton.addEventListener("click", () => {
 });
 
 userInput.addEventListener("keydown", e => {
-    palindromeChecker(userInput.value);
-    userInput.value = "";
+    if (e.key === "Enter") {
+        palindromeChecker(userInput.value);
+        userInput.value = "";
+    }
 })
