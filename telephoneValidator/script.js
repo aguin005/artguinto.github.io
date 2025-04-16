@@ -14,14 +14,20 @@ const checkTelephoneNumber = num => {
     const regex = /^1?\s?(\(\d{3}\)|\d{3})[\s-]?\d{3}[\s-]?\d{4}$/;
 
     if (regex.test(num)) {
+        const div = document.createElement("div");
+        div.setAttribute("class", "text-container");
         const p = document.createElement("p");
         p.textContent = `Valid US number: ${num}`;
-        resultsDiv.appendChild(p);
+        div.appendChild(p);
+        resultsDiv.appendChild(div);
     }
     else {
+        const div = document.createElement("div");
+        div.setAttribute("class", "text-container");
         const p = document.createElement("p");
         p.textContent = `Invalid US number: ${num}`;
-        resultsDiv.appendChild(p);
+        div.appendChild(p);
+        resultsDiv.appendChild(div);
     }
 }
 
