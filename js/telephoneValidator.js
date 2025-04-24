@@ -4,7 +4,10 @@ const clearBtn = document.getElementById("clear-btn");
 const resultsDiv = document.getElementById("results-div");
 
 const checkTelephoneNumber = num => {
-    if (num === "") {
+
+    regex = /[a-zA-Z]/gi;
+
+    if (num === "" || regex.test(num)) {
         alert("Please provide a phone number");
         return;
     }
