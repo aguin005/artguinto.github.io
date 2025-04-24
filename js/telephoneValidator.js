@@ -5,9 +5,9 @@ const resultsDiv = document.getElementById("results-div");
 
 const checkTelephoneNumber = num => {
 
-    regex = /[a-zA-Z]/gi;
+    const letters = /[a-zA-Z]/gi;
 
-    if (num === "" || regex.test(num)) {
+    if (num === "" || letters.test(num)) {
         alert("Please provide a phone number");
         return;
     }
