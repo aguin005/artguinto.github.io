@@ -439,6 +439,31 @@ a {
 
 }
 
+.barvisual {
+    display: flex;
+}
+
+#blueplate, #greenplate {
+    width: 20px;
+    height: 100px;
+}
+
+#blueplate {
+    background-color: blue;
+}
+
+#greenplate {
+    background-color: green;
+}
+
+#bar {
+    background-color: gray;
+    width: 250px;
+    height: 10px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
 .gymRoutine {
     width: 100%;
     height: auto;
