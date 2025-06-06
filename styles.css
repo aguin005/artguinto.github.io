@@ -446,6 +446,7 @@ a {
 #blueplate, #greenplate {
     width: 20px;
     height: 100px;
+    border: 1px solid black;
 }
 
 #blueplate {
