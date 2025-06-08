@@ -719,6 +719,18 @@ a {
 
 }
 
+.travelPage {
+    background-color: rgb(98, 137, 243);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#travelPage-title {
+    align-self: center;
+}
+
 .hidden {
     display: none;
 }
