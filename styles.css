@@ -125,6 +125,22 @@ a {
 }
 
 /* About page: talking about myself */
+
+#photome {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-right: 35px;
+}
+
+.photoofme {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 #about {
     width: 100%;
     height: 100vh;
@@ -140,7 +156,6 @@ a {
 #about section {
     width: 100%;
     min-width: 500px;
-    max-width: 800px;
 }
 
 #about #about-title {
@@ -205,25 +220,25 @@ a {
     margin: 10px auto;
 }
 
-/* @media (max-width: 600px) {
+@media (max-width: 1300px) {
 
-    #about #about-title {
-        font-size: 3rem;
+    #photome {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .photoofme {
+        flex-direction: column-reverse;
+        justify-content: space-between;
     }
 
-    #about p {
-        font-size: 1.5rem;
+    #photome {
+        width: 300px;
+        height: 300px;
     }
-
-    #about section {
-        width: 100%;
-        min-width: 300px;
-    }
-    
-    .randomPage h1{
-        font-size: 3rem;
-    }
-} */
+}
 
 /* Gym page: title */
 
