@@ -351,6 +351,10 @@ a {
         font-size: 4rem;
     }
 
+    #gymAbout-goal {
+        font-size: 4rem;
+    }
+
     .gymAbout p {
         font-size: 1.5rem;
     }
@@ -368,12 +372,16 @@ a {
         font-size: 3rem;
     }
 
+    #gymAbout-goal {
+        font-size: 3rem;
+    }
+
     .gymAbout section {
-        min-width: 300px;
+        min-width: 275px;
     }
 
     .gymAbout p {
-        font-size: 1rem;
+        font-size: .75rem;
     }
 
 }
