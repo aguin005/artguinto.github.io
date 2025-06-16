@@ -376,8 +376,8 @@ a {
         font-size: 3rem;
     }
 
-    .gymAbout section {
-        min-width: 275px;
+    #gymAbout-content section {
+        min-width: 0px;
     }
 
     .gymAbout p {
