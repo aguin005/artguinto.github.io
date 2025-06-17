@@ -380,6 +380,10 @@ a {
         min-width: 0px;
     }
 
+    #gymAbout-goalContent section {
+        min-width: 0px;
+    }
+
     .gymAbout p {
         font-size: .75rem;
     }
