@@ -156,6 +156,7 @@ a {
 #about section {
     width: 100%;
     min-width: 500px;
+    margin-right: 10px;
 }
 
 #about #about-title {
