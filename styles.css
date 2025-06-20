@@ -226,6 +226,7 @@ a {
     #photome {
         margin-right: 0;
     }
+
 }
 
 @media (max-width: 800px) {
@@ -238,6 +239,10 @@ a {
     #photome {
         width: 300px;
         height: 300px;
+    }
+
+    #about-buttons {
+        justify-content: center;
     }
 }
 
@@ -606,6 +611,11 @@ a {
 
     #about #about-title {
         font-size: 2rem;
+        align-self: center;
+    }
+
+    #photome {
+        align-self: center;
     }
 
     #about p {
