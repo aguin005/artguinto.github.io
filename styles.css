@@ -435,6 +435,10 @@ a {
     color: var(--gym-color-5);
 }
 
+.gymPersonalRecord #bodyGroup{
+    font-size: 40px;
+}
+
 @media (max-width: 1425px) {
 
     .gymPersonalRecord {
