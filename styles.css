@@ -132,6 +132,7 @@ a {
     object-fit: cover;
     border-radius: 10%;
     margin-right: 35px;
+    filter: brightness(1.1);
 }
 
 .photoofme {
