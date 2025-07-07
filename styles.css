@@ -793,6 +793,17 @@ a {
 .travelPage-place {
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.travelPage-place h2{
+    align-self: center;
+}
+
+.travelPage-place p {
+    align-self: center;
 }
 
 .hidden {
