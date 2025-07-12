@@ -791,31 +791,130 @@ a {
 }
 
 .travelPage-place {
-    width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 450px;
 }
 
-.travelPage-place h2{
-    align-self: center;
+#collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100vw;
+    height: 100vw;
+    position: relative;
+}
+
+#collage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#keychain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+    height: auto;
+    z-index: 1;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
 }
 
 .travelPage-place p {
-    align-self: center;
+    text-align: center;
+    margin-top: 20px;
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-@media(max-width: 600px) {
+/* Tablet and smaller desktop screens */
+@media (max-width: 1200px) {
+    
+    #keychain {
+        top: 60%;
+        width: 220px;
+    }
+    
+    .travelPage-place {
+        padding: 200px 0;
+    }
+}
+
+/* Small tablets */
+@media (max-width: 900px) {
+    
+    #keychain {
+        width: 180px;
+    }
+    
+    .travelPage-place {
+        padding: 150px 0;
+    }
+    
+    .travelPage-place p {
+        font-size: 1rem;
+        max-width: 500px;
+        padding: 0 20px;
+    }
+}
+
+/* Mobile landscape */
+@media (max-width: 768px) {
+    
+    #keychain {
+        width: 150px;
+    }
+    
+    .travelPage-place {
+        padding: 100px 0;
+    }
+}
+
+/* Mobile portrait */
+@media (max-width: 600px) {
 
     #keychain {
-        width: 350px;
+        top: 55%;
+        width: 35vw;
+        max-width: 140px;
+        min-width: 90px;
     }
 
     .travelPage-place p {
+        max-width: 300px;
+        font-size: 0.9rem;
+        padding: 0 15px;
+    }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+    
+    #keychain {
+        top: 55%;        
+        width: 32vw;
+        max-width: 120px;
+        min-width: 80px;
+    }
+    
+    .travelPage-place {
+        padding: 60px 0;
+    }
+    
+    .travelPage-place p {
+        font-size: 0.8rem;
         max-width: 250px;
     }
-
 }
 
 .hidden {
