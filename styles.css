@@ -837,7 +837,6 @@ a {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* Tablet and smaller desktop screens */
 @media (max-width: 1200px) {
     
     #keychain {
@@ -850,7 +849,6 @@ a {
     }
 }
 
-/* Small tablets */
 @media (max-width: 900px) {
     
     #keychain {
@@ -868,7 +866,14 @@ a {
     }
 }
 
-/* Mobile landscape */
+@media (min-width: 1600px) {
+
+    #keychain {
+        top: 60%;
+    }
+    
+}
+
 @media (max-width: 768px) {
     
     #keychain {
@@ -880,7 +885,6 @@ a {
     }
 }
 
-/* Mobile portrait */
 @media (max-width: 600px) {
 
     #keychain {
@@ -897,7 +901,6 @@ a {
     }
 }
 
-/* Very small screens */
 @media (max-width: 480px) {
     
     #keychain {
