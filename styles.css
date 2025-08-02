@@ -869,7 +869,7 @@ a {
 @media (min-width: 1600px) {
 
     #keychain {
-        top: 60%;
+        top: 55%;
     }
     
 }
@@ -877,7 +877,7 @@ a {
 @media (max-width: 768px) {
     
     #keychain {
-        width: 150px;
+        width: 300px;
     }
     
     .travelPage-place {
