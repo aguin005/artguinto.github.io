@@ -796,7 +796,8 @@ a {
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 100%;
+    width: 100vw;
+    height: 175vh;
     min-height: 100vh;
     padding-top: 50px;
     padding-bottom: 500px;
@@ -806,8 +807,8 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    width: 100vw;
-    height: 100vw;
+    width: 75vw;
+    height: 75vh;
     position: relative;
 }
 
@@ -846,12 +847,14 @@ a {
     
     .travelPage-place {
         padding: 200px 0;
+        height: 125vh;
     }
 }
 
 @media (max-width: 900px) {
     
     #keychain {
+        top: 55%;
         width: 180px;
     }
     
@@ -869,7 +872,7 @@ a {
 @media (min-width: 1600px) {
 
     #keychain {
-        top: 55%;
+        top: 40%;
     }
     
 }
@@ -888,7 +891,7 @@ a {
 @media (max-width: 600px) {
 
     #keychain {
-        top: 60%;
+        top: 50%;
         width: 35vw;
         max-width: 140px;
         min-width: 90px;
@@ -904,7 +907,7 @@ a {
 @media (max-width: 480px) {
     
     #keychain {
-        top: 55%;        
+        top: 50%;        
         width: 32vw;
         max-width: 120px;
         min-width: 80px;
