@@ -836,6 +836,7 @@ a {
     }
     
     .travelPage-place {
+        padding-top: 0;
         padding: 60px 0;
     }
     
@@ -849,6 +850,7 @@ a {
     }
     
     .travelPage-place {
+        padding-top: 0;        
         padding: 100px 0;
     }
 }
@@ -860,6 +862,7 @@ a {
     }
     
     .travelPage-place {
+        padding-top: 0;
         padding: 150px 0;
     }
 
@@ -878,6 +881,7 @@ a {
     }
     
     .travelPage-place {
+        padding-top: 0;
         padding: 200px 0;
     }
 }
@@ -889,6 +893,7 @@ a {
     }
 
     .travelPage-place {
+        padding-top: 0;        
         padding: 1000px 0;
     }
     
