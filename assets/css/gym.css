@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Guardia";
+    src: url("../fonts/Guardia-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Kubos";
+    src: url("../fonts/kubos-regular.otf");
+}
+
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.gymHome {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--gym-color-4);
+    color: var(--gym-color-1);
+}
+
+#gymHome-title {
+    font-family: var(--gym-font-family);
+    font-size: 10rem;
+    align-self: center;
+}
+
+@media (max-width: 1070px) {
+
+    #gymHome-title {
+        font-size: 7rem;
+    }
+
+}
+
+@media (max-width: 745px) {
+
+    #gymHome-title {
+        font-size: 5rem;
+    }
+
+}
+
+.gymAbout {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    background-color: var(--gym-color-3);
+    color: var(--gym-color-2);
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+#gymAbout-title {
+    font-size: 5rem;
+    padding-right: 20px;
+    color: var(--gym-color-4);
+    font-family: var(--gym-font-family);
+    margin: 0;
+}
+
+#gymAbout-goal {
+    font-size: 5rem;
+    padding-left: 20px;
+    color: var(--gym-color-4);
+    font-family: var(--gym-font-family);
+    margin: 0;
+    text-align: left;
+}
+
+#gymAbout-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#gymAbout-content section {
+    width: 100%;
+    min-width: 500px;
+    max-width: 800px;
+    margin-left: auto;
+    padding-right: 20px;
+    text-align: left;
+}
+
+#gymAbout-goalContent section {
+    width: 100%;
+    min-width: 500px;
+    max-width: 800px;
+    margin-right: auto;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.gymAbout p {
+    font-family: "Kubos", sans-serif;
+    color: var(--gym-color-2);
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+#gymAbout-logo {
+    margin: 0;
+    text-align: left;
+    font-size: 25rem;
+    margin-left: 150px;
+}
+
+@media (max-width: 1070px) {
+
+    #gymAbout-title {
+        font-size: 4rem;
+    }
+
+    #gymAbout-goal {
+        font-size: 4rem;
+    }
+
+    .gymAbout p {
+        font-size: 1.5rem;
+    }
+
+    .gymAbout section {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+}
+
+@media (max-width: 745px) {
+
+    #gymAbout-title {
+        font-size: 3rem;
+    }
+
+    #gymAbout-goal {
+        font-size: 3rem;
+    }
+
+    #gymAbout-content section {
+        min-width: 0px;
+    }
+
+    #gymAbout-goalContent section {
+        min-width: 0px;
+    }
+
+    .gymAbout p {
+        font-size: .75rem;
+    }
+
+}
+
+.gymPersonalRecord {
+    width: 100%;
+    height: auto;
+    background-color: var(--gym-color-2);
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+.gymPersonalRecord h3 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: var(--gym-font-family);
+    color: var(--gym-color-3);
+    text-decoration: underline;
+}
+
+.gymPersonalRecord h4 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: var(--gym-font-family);
+    color: var(--gym-color-3);
+}
+
+.gymPersonalRecord-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    font-family: "Kubos";
+}
+
+#workout {
+    margin: 0;
+}
+
+#workout-title {
+    margin: 0;
+}
+
+#workout p {
+    color: var(--gym-color-5);
+}
+
+.gymPersonalRecord #bodyGroup{
+    font-size: 40px;
+}
+
+@media (max-width: 1425px) {
+
+    .gymPersonalRecord {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 1070px) {
+
+    .gymPersonalRecord h3 {
+        font-size: 3.5rem;
+    }
+
+    .gymPersonalRecord h4 {
+        font-size: 1.5rem;
+    }
+
+    #workout-title {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    #workout p {
+        font-size: .75rem;
+    }
+
+}
+
+@media (max-width: 745px) {
+
+    .gymPersonalRecord h3 {
+        font-size: 2.5rem;
+    }
+
+    .gymAbout p {
+        font-size: 1.25rem;
+    }
+
+}
+
+.barvisual {
+    display: flex;
+}
+
+#blueplate, #greenplate {
+    width: 15px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#blueplate {
+    background-color: #1f4483;
+}
+
+#greenplate {
+    background-color: #40875d;
+}
+
+#bar {
+    background-color: #a7a8a5;
+    width: 175px;
+    height: 7.5px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border: 1px solid black;
+}
+
+.gymRoutine {
+    width: 100%;
+    height: auto;
+    background-color: var(--gym-color-1);
+    margin: 0;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.gymRoutine h4 {
+    font-size: 1.5rem;
+    font-family: var(--gym-font-family);
+}
+
+#routine-title {
+    font-size: 5rem;
+    font-family: var(--gym-font-family);
+    color: var(--gym-color-4);
+}
+
+.gymRoutine-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 15px;
+    max-width: 1400px;
+    gap: 10px;
+    width: 100%;
+}
+
+#dayRoutine {
+    width: 350px;
+    height: auto;
+    max-height: 375px;
+}
+
+#dayRoutine p {
+    font-family: "Kubos", sans-serif;
+
+}
+
+#day {
+    text-decoration: underline;
+    font-size: 2rem;
+    font-family: "Kubos", sans-serif;
+}
+
+#bodyGroup {
+    font-family: "Kubos", sans-serif;
+    color: var(--gym-color-5);
+}
+
+#dayRoutine ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+#dayRoutine p {
+    color: var(--gym-color-3);
+    font-size: 1rem;
+}
+
+@media (max-width: 1070px) {
+
+    #routine-title {
+        font-size: 2.75rem;
+    }
+
+    #day {
+        font-size: 1.5rem;
+    }
+
+    #dayRoutine p {
+        color: var(--gym-color-3);
+        font-size: .75rem;
+    }
+
+}
+
+@media only screen and (max-width: 1400px) {
+    #gymAbout-logo {
+        display: none;
+    }
+}

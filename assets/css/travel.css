@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
 .travelPage {
     background-color: rgb(98, 137, 243);
     width: 100%;
