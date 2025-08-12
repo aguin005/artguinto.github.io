@@ -10,13 +10,25 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
         <title>Travel</title>
     </head>
+    <!--Liquid glass credit - https://snipzy.dev/snippets/liquid-glass-card.html-->
+    <svg style="display: none">
+    <filter id="glass-distortion">
+        <feTurbulence type="turbulence" baseFrequency="0.008" numOctaves="2" result="noise" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="77" />
+    </filter>
+    </svg>
     <body>
-        <nav class="navbar">
+        <div class="glass-card">
+        <div class="glass-filter"></div>
+        <div class="glass-overlay"></div>
+        <div class="glass-specular"></div>
+        <div class="glass-content">
             <ul id="navlinks">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="gym.html">Gym</a></li>
+                <li><a href="../pages/gym.html">Gym</a></li>
             </ul>
-        </nav>
+        </div>
+    </div>
         <div class="sep">
             <div class="travelPage-place" >
                 <div id="collage">

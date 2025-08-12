@@ -16,6 +16,9 @@
     --gym-color-3: #588157;
     --gym-color-4: #a3b18a;
     --gym-color-5: #dad7cd;
+    --bg-color: rgba(255, 255, 255, 0.25);
+    --highlight: rgba(255, 255, 255, 0.75);
+    --text: #ffffff;
 }
 
 body {
@@ -37,35 +40,84 @@ a {
     color: black;
 }
 /* Navigation bar at the top */
-.navbar {
-    display: flex;
+.glass-card {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    text-wrap: nowrap;
-    justify-content: center;
-    height: 40px;
-    width: 100%;
-    min-width: 300px;
-    background: grey;
-    background: rgba(255, 255, 255, .8);
-    backdrop-filter: blur(10px);
-    font-family: var(--font-family);
-    font-size: .75rem;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: 50px;
+    overflow: hidden;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
     z-index: 999;
+}
+
+.glass-filter,
+.glass-overlay,
+.glass-specular {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+
+.glass-filter {
+  z-index: 1;
+  backdrop-filter: blur(4px);
+  filter: url(#glass-distortion) saturate(120%) brightness(1.15);
+}
+
+.glass-distortion-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 30%, rgba(255,255,255,0.05) 0%, transparent 80%),
+              radial-gradient(circle at 80% 70%, rgba(255,255,255,0.05) 0%, transparent 80%);
+  background-size: 300% 300%;
+  animation: floatDistort 10s infinite ease-in-out;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+@keyframes floatDistort {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+.glass-overlay {
+  background: var(--bg-color);
+}
+
+.glass-specular {
+  box-shadow: inset 1px 1px 1px var(--highlight);
+}
+
+.glass-content {
+  position: relative;
+  z-index: 4;
+  padding: 20px;
+  color: var(--text);
+  font-family: var(--font-family);
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  z-index: 999;
 }
 
 #navlinks {
     padding: 0px;
 }
 
-#navlinks ul {
+.glass-content ul {
     list-style-type: none;
     padding: 0;
 }
 
-#navlinks li {
+.glass-content li {
     display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
@@ -326,6 +378,7 @@ a {
 }
 
 #projects img:hover {
+    z-index: 1;
     transform: scale(1.025);
     box-shadow: 2px 8px 10px var(--color-1);
 }
