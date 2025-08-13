@@ -21,6 +21,11 @@
     --text: #ffffff;
 }
 
+@font-face {
+    font-family: "Satoshi";
+    src: url("../fonts/Satoshi-Variable.ttf");
+}
+
 body {
     margin: 0;
     scroll-behavior: smooth;
@@ -167,7 +172,7 @@ a {
 }
 
 #home > #home-title {
-    font-family: var(--font-family), sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-size: 4rem;
     text-wrap: nowrap;
     font-weight: 800;
@@ -225,7 +230,7 @@ a {
 #about #about-title {
     font-size: 4rem;
     color: var(--color-2);
-    font-family: var(--font-family);
+    font-family: "Satoshi", sans-serif;
 }
 
 #about p {
@@ -251,7 +256,7 @@ a {
     border: white 1px solid;
     border-radius: 50px;
     text-decoration: none;
-    font-family: var(--font-family), sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-weight: 500;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -275,7 +280,7 @@ a {
 
 .randomPage h1 {
     font-size: 4rem;
-    font-family: var(--font-family);
+    font-family: "Satoshi", sans-serif;
     color: var(--color-4);
     align-self: center;
 }
@@ -364,7 +369,7 @@ a {
     padding: 10px;
     padding-bottom: 40px;
     background-color: var(--color-3);
-    font-family: var(--font-family);
+    font-family: "Satoshi", sans-serif;
 }
 
 #projects h3, #projects h4, #projects p {
@@ -442,7 +447,7 @@ a {
 }
 
 #contacts h4 {
-    font-family: var(--font-family), sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-size: 4rem;
     text-align: center;
     color: var(--color-2);
@@ -464,6 +469,7 @@ a {
 }
 
 #contacts li {
+    font-family: "Satoshi", sans-serif;
     display: inline-block;
     margin-left: 30px;
     margin-right: 30px;
