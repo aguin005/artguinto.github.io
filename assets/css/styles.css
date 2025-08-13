@@ -123,6 +123,38 @@ a {
     margin-right: 20px;
 }
 
+@media (max-width: 865px) {
+
+    .glass-content {
+        padding: 0;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 710px) {
+
+    .glass-card {
+        left: 5%;
+        right: 5%;
+        transform: translateX(0%);
+    }
+
+    .glass-content {
+        padding: 0;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 395px) {
+
+    .glass-content {
+        font-size: 5.5px;
+    }
+
+}
+
 /* Home page : name */
 #home {
     display: flex;
