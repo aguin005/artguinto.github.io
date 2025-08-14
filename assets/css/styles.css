@@ -140,9 +140,7 @@ a {
 @media (max-width: 710px) {
 
     .glass-card {
-        left: 5%;
-        right: 5%;
-        transform: translateX(0%);
+        width: 210px;
     }
 
     .glass-content {
