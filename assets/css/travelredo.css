@@ -58,4 +58,8 @@
         width: 250px;
     }
 
+    .travel-place h1 {
+        font-size: 1.5rem;
+    }
+
 }
