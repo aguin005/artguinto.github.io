@@ -52,7 +52,7 @@
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
 }
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
 
     #travel-keychain {
         width: 250px;
