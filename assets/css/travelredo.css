@@ -10,7 +10,7 @@
 .travel-slot {
     width: 100%;
     height: auto;
-    background-color: black;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(59, 58, 58, 1) 10%);
 }
 
 .travel-place {
