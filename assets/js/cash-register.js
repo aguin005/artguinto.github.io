@@ -12,4 +12,12 @@ let cid = [
 ];
 
 const userInput = document.getElementById("cash");
-console.log(cash);
+const purchaseBtn = document.getElementById("purchase-btn");
+
+const checkChange = (userCash) => {
+
+}
+
+purchaseBtn.addEventListener("click", () => {
+  checkChange(userInput);
+});
