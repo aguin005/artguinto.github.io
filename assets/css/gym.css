@@ -56,8 +56,8 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: right;
-    background-color: var(--gym-color-3);
-    color: var(--gym-color-2);
+    background-color: black;
+    color: white;
     margin: 0;
     padding: 20px 0 0 0;
 }
@@ -65,7 +65,7 @@ body {
 #gymAbout-title {
     font-size: 5rem;
     padding-right: 20px;
-    color: var(--gym-color-4);
+    color: white;
     font-family: var(--gym-font-family);
     margin: 0;
 }
@@ -73,7 +73,7 @@ body {
 #gymAbout-goal {
     font-size: 5rem;
     padding-left: 20px;
-    color: var(--gym-color-4);
+    color: white;
     font-family: var(--gym-font-family);
     margin: 0;
     text-align: left;
@@ -107,7 +107,7 @@ body {
 
 .gymAbout p {
     font-family: "Kubos", sans-serif;
-    color: var(--gym-color-2);
+    color: rgb(214, 210, 210);
     font-size: 2rem;
     line-height: 1.5;
     margin-bottom: 50px;
@@ -168,7 +168,7 @@ body {
 .gymPersonalRecord {
     width: 100%;
     height: auto;
-    background-color: var(--gym-color-2);
+    background-color: black;
     margin: 0;
     padding: 10px;
     padding-bottom: 100px;
@@ -178,7 +178,7 @@ body {
     text-align: center;
     font-size: 5rem;
     font-family: var(--gym-font-family);
-    color: var(--gym-color-3);
+    color: white;
     text-decoration: underline;
 }
 
@@ -186,7 +186,7 @@ body {
     text-align: center;
     font-size: 2.5rem;
     font-family: var(--gym-font-family);
-    color: var(--gym-color-3);
+    color: white;
 }
 
 .gymPersonalRecord-content {
@@ -209,6 +209,10 @@ body {
 
 #workout p {
     color: var(--gym-color-5);
+}
+
+#workout a {
+    color: white;
 }
 
 .gymPersonalRecord #bodyGroup{
@@ -286,7 +290,7 @@ body {
 .gymRoutine {
     width: 100%;
     height: auto;
-    background-color: var(--gym-color-1);
+    background-color: black;
     margin: 0;
     padding-bottom: 100px;
     display: flex;
@@ -298,12 +302,13 @@ body {
 .gymRoutine h4 {
     font-size: 1.5rem;
     font-family: var(--gym-font-family);
+    color: white;
 }
 
 #routine-title {
     font-size: 5rem;
     font-family: var(--gym-font-family);
-    color: var(--gym-color-4);
+    color: rgb(214, 210, 210);
 }
 
 .gymRoutine-content {
@@ -348,7 +353,7 @@ body {
 }
 
 #dayRoutine p {
-    color: var(--gym-color-3);
+    color: rgb(214, 210, 210);
     font-size: 1rem;
 }
 
@@ -363,7 +368,7 @@ body {
     }
 
     #dayRoutine p {
-        color: var(--gym-color-3);
+        color: rgb(214, 210, 210);
         font-size: .75rem;
     }
 
